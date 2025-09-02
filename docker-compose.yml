@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: pg_paperless
+    restart: always
+    environment:
+      POSTGRES_USER: paperless
+      POSTGRES_PASSWORD: irf!TIFD1$CO
+      POSTGRES_DB: postgres
+      TZ: Asia/Bangkok
+    ports:
+      - "5434:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  pg_data:
