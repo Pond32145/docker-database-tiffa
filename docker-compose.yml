@@ -7,7 +7,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: paperless
-      POSTGRES_PASSWORD: irf!TIFD1$CO
+      POSTGRES_PASSWORD: irf!TIFD1qCO
       POSTGRES_DB: postgres
       TZ: Asia/Bangkok
     ports:
