@@ -1,8 +1,7 @@
 #!/bin/bash
 # backup.sh
 
-# Path ที่เก็บ backup
-BACKUP_DIR=/home/ubuntu/pg_backups
+BACKUP_DIR=./backup
 
 FILENAME=paperless_$(date +%Y%m%d_%H%M%S).dump
 
